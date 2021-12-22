@@ -1,0 +1,759 @@
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 23 sep 2019 3_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 26 sep 2019 10_00\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\Desarrollo 07 oct 2019 3_00PM\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 15 oct 2019 2PM\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 16 oct 2019 7_44PM\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 28 oct 2019 12_25\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 04 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 05 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 07 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+D:\Administracion Bety\Banca Patrimonial\Proyectos\Ticket NET\Desarollo DB 17\VS 2015\Desarrollo 11 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+C:\Desarrollo 18 NOV 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ConsultaCTA.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe.config
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.exe
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.xml
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.pdb
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.exe
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.pdb
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\Ticket.xml
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ConsultaCTA.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+C:\Desarrollo 03 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ConsultaCTA.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmRepAperturas.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.Cache
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojResolveAssemblyReference.cache
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\log4net.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\MT103_Cuenta.rpt
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\MT103_Cuenta.vb
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Web.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepAperturas.resources
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.exe.config
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.exe.manifest
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.application
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.exe
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.pdb
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\bin\Release\TicketReportes.xml
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.TrustInfo.xml
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.exe.manifest
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.application
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.exe
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.xml
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\TicketReportes.pdb
+C:\Desarrollo 11 DIC 2019\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmAperturasXFecha.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Web.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ConsultaCTA.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmAperturasXFecha.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepAperturas.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmRepAperturas.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmCrystalReport.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepMt103Ticket.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.cache
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.CopyComplete
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojAssemblyReference.cache
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmAperturasDetalle.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\Reportes\MT103_Cuenta.rpt
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\Reportes\Aper_por_Fecha.rpt
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\Reportes\MT103_Cuenta.vb
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\Reportes\Aper_por_Fecha.vb
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.Acercade.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe.config
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe.manifest
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.application
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.pdb
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\bin\Release\TicketPrincipal.xml
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.TrustInfo.xml
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.exe.manifest
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.application
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.exe
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.xml
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\TicketPrincipal.pdb
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmAlertaBloqueoCtas.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmRepCtasDineroVista.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.RepOperativa.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmTDDPosteoRechazos.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmRepOperRelev.resources
+D:\DESARROLLO\Desarrollo\ENCRIPTADORNET\obj\Release\Ticket.frmRepOperUsuario.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\Reportes\MT103_Cuenta.rpt
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\Reportes\Aper_por_Fecha.rpt
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\Reportes\MT103_Cuenta.vb
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\Reportes\Aper_por_Fecha.vb
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe.config
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe.manifest
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.application
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.exe
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.pdb
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\TicketPrincipal.xml
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.Data.AdoDotNetInterop.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportSource.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.Shared.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.Web.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.Windows.Forms.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\FlashControlV71.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\ShockwaveFlashObjects.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Release\stdole.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbprojAssemblyReference.cache
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.Acercade.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.AperturaCuenta.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepOperNOValidadas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepOperUsuario.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmTDDPosteoRechazos.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepOperRelev.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepCtasDineroVista.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.RepOperativa.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.Bloqueo_DesbloqueoCtas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CancelacionCtas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CapApoderados.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CapAutorizados.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CapBeneficiarios.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CapCotitulares.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CapturaOpe.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.CompApertura.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.ConsultaCTA.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.Form1.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.RepAperturas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepAperturas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.funcionalidades.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.Login.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.Resources.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.ValidaApertura.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.VerApoderados.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.VerAutorizados.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.VerBeneficiarios.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.VerCotitulares.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.GenerateResource.cache
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.TrustInfo.xml
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.exe.manifest
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.application
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.CopyComplete
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.exe
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.xml
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketPrincipal.pdb
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmRepAplicaContable.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Interop.CRQUERYENGINE.dll
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\TicketMT103MT202.vbproj.ResolveComReference.cache
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmMT103OrdPago.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmCtasBloqAct.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmFuncConSinCtaCED.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmManntoCuentas.resources
+D:\DESARROLLO\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Release\Ticket.frmManttoParHor.resources
