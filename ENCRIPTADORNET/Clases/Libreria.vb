@@ -20,7 +20,12 @@ Public Class Libreria
     'Public DB As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "DB", "F/zR1+RmJaBlM9ASBnA7fA=="))
     Public DB As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "DB", "z1Rh9boc5VE="))
     Public DBFUN As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "DBFUN", "F/zR1+RmJaBlM9ASBnA7fA=="))
+
+    ''Produccion
     Public SERVER As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "SERVER", "yZdfPixuOVHe2BW1AkcI3YVFLyxAsdr8"))
+    ''Desarrollo
+    'Public SERVER As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "SERVER", "o5BRHsrA9tFInzCfsQtRSscFKe2f5Nzh"))
+
     Public USER As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "USER", "0fWlJK7YTOg="))
     Public PWD As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "PWD", "qeOBHX/EztY="))
     Public USERNM As String = Trim(ReadIni(ARCHIVOINI, "DATABASE", "USERNM", "0fWlJK7YTOg="))

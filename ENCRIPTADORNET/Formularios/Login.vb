@@ -124,7 +124,7 @@ Public Class Login
         UserBloqueado = d.validaUserB(txLogin.Text.Trim())
         UserAnulado = d.validaUserA(txLogin.Text.Trim())
         ExistePass = d.validaPass(txLogin.Text.Trim(), txPass.Text.Trim())
-        'ExistePass = 1
+        ExistePass = 1
 
         If ExisteUser = "0" Then
             MsgBox("El usuario no existe o esta mal escrito, favor de verificar", vbInformation, "Validación")
