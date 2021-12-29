@@ -65,6 +65,9 @@ Public Class frmOperacReport
             'Screen.MousePointer = vbHourglass
             cmdImprimir.Enabled = True
             dgvOperac.DataSource = Nothing
+
+            mnTipoRep = 15 'pruebas
+
             Select Case mnTipoRep
                 Case 2 : ListaRetiros()
                 Case 3 : ListaDep(583)          'Depositos por sucursal en Firme
@@ -104,83 +107,93 @@ Public Class frmOperacReport
 
     Private Sub ListaRetiros()
         'Obtiene las operaciones con fecha_operacion = "HOY" ya validadas
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..RETIRO_PME ROP,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO,"
-        gs_Sql = gs_Sql & " TICKET..TIPO_DOCUMENTO TD"
-        gs_Sql = gs_Sql & " where OD.operacion_definida_global IN (83, 59, 58)"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"
-        gs_Sql = gs_Sql & " and O.status_operacion >= 2"
-        gs_Sql = gs_Sql & " and O.operacion = ROP.operacion"
-        gs_Sql = gs_Sql & " and ROP.tipo_documento = TD.tipo_documento"
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida=OD.operacion_definida"
-        gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion"
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..RETIRO_PME ROP
+	            INNER JOIN TICKET..OPERACION O ON O.operacion = ROP.operacion
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida AND OD.agencia = 1
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+	            INNER JOIN TICKET..TIPO_DOCUMENTO TD ON ROP.tipo_documento = TD.tipo_documento	
+            where
+	            OD.operacion_definida_global IN (83, 59, 58)
+	            and O.status_operacion <> 250
+	            and O.status_operacion >= 2
+	            and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion <  '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and OD.agencia = 1
+            order by
+	            O.operacion
+        "
+
     End Sub
     Private Sub ListaRetDevCheque()
         'Obtiene las operaciones con fecha_operacion = "HOY" ya validadas
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..RETIRO_PME ROP,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where OD.operacion_definida_global = 88"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"
-        gs_Sql = gs_Sql & " and O.status_operacion >= 2"
-        gs_Sql = gs_Sql & " and O.operacion = ROP.operacion"
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida=OD.operacion_definida"
-        gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion"
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..RETIRO_PME ROP
+	            INNER JOIN TICKET..OPERACION O ON O.operacion = ROP.operacion
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida AND OD.agencia = 1
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            where
+	            OD.operacion_definida_global = 88
+	            and O.status_operacion <> 250
+	            and O.status_operacion >= 2	
+	            and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+            order by
+	            O.operacion
+        "
+
     End Sub
 
     Private Sub ListaDep(ByVal OpDefGlobal As String)
         Select Case OpDefGlobal
             Case 583
                 'Obtiene las operaciones con fecha_cierre <= "HOY" ya Validadas
-                gs_Sql = "Select distinct"
-                gs_Sql = gs_Sql & " O.operacion,"
-                gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-                gs_Sql = gs_Sql & " O.monto_operacion,"
-                gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-                gs_Sql = gs_Sql & " from TICKET..DEPOSITO_PME ROP,"
-                gs_Sql = gs_Sql & " TICKET..OPERACION O,"
-                gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-                gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-                gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO,"
-                gs_Sql = gs_Sql & " TICKET..DEPOSITO D,"
-                gs_Sql = gs_Sql & " TICKET..TIPO_DOCUMENTO TD"
-                gs_Sql = gs_Sql & " where OD.operacion_definida_global IN (" & OpDefGlobal & ", 559)"
-                gs_Sql = gs_Sql & " and O.status_operacion <> 250 and O.status_operacion >= 2"
-                gs_Sql = gs_Sql & " and O.operacion = ROP.operacion"
-                gs_Sql = gs_Sql & " and O.operacion = D.operacion"
-                gs_Sql = gs_Sql & " and D.operacion = ROP.operacion"
-                gs_Sql = gs_Sql & " and D.tipo_documento = TD.tipo_documento"
-                gs_Sql = gs_Sql & " and ROP.fecha_cierre > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"
-                gs_Sql = gs_Sql & " and ROP.fecha_cierre < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"
-                gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-                gs_Sql = gs_Sql & " and O.operacion_definida= OD.operacion_definida"
-                gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-                gs_Sql = gs_Sql & " and O.operacion *= RO.operacion"
+                gs_Sql =
+                    "
+                    Select
+	                    distinct O.operacion,
+	                    PC.cuenta_cliente,
+	                    O.monto_operacion,
+	                    case
+		                    RO.impreso when 1 then 'Impreso'
+		                    else ''
+	                    end
+                    from
+	                    TICKET..DEPOSITO_PME ROP
+	                    INNER JOIN TICKET..OPERACION O ON O.operacion = ROP.operacion
+	                    INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	                    INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida AND OD.agencia = 1
+	                    LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+	                    INNER JOIN TICKET..DEPOSITO D ON O.operacion = D.operacion AND D.operacion = ROP.operacion
+	                    INNER JOIN TICKET..TIPO_DOCUMENTO TD ON D.tipo_documento = TD.tipo_documento 	
+                    where
+	                    OD.operacion_definida_global IN (583, 559)
+	                    and O.status_operacion <> 250
+	                    and O.status_operacion >= 2
+	                    and ROP.fecha_cierre > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	                    and ROP.fecha_cierre < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+                    "
+
 
             Case 588
                 'If optSBF(0).Value Then
@@ -208,25 +221,39 @@ Public Class frmOperacReport
                 Else
                     'LGA MAYO 24, 2007  Se anexan 6 dias habilies a la Fecha Captura
                     'que es lo que tarda en hacerse el deposito (Operaciones "N" Dias)
-                    gs_Sql = "SELECT  DISTINCT "
-                    gs_Sql = gs_Sql & "O.operacion, PC.cuenta_cliente, O.monto_operacion,"
-                    gs_Sql = gs_Sql & "CASE RO.impreso WHEN 1 THEN 'Impreso' ELSE ''END,"
-                    gs_Sql = gs_Sql & "'Fecha_Vencimiento' =CASE "
-                    gs_Sql = gs_Sql & "WHEN DATEPART(weekday,DATEADD(d,6,fecha_captura))= 7 THEN DATEADD(d,8,fecha_captura)"
-                    gs_Sql = gs_Sql & "WHEN DATEPART(weekday,DATEADD(d,6,fecha_captura))= 1 THEN DATEADD(d,7,fecha_captura)"
-                    gs_Sql = gs_Sql & "ELSE DATEADD(d,8,fecha_captura)  END, fecha_operacion "
-                    gs_Sql = gs_Sql & "from TICKET..DEPOSITO_PME ROP, TICKET..OPERACION O,"
-                    gs_Sql = gs_Sql & "TICKET..PRODUCTO_CONTRATADO PC, TICKET..OPERACION_DEFINIDA OD, "
-                    gs_Sql = gs_Sql & "TICKET..REPORTE_OPERACION RO, TICKET..DEPOSITO D, TICKET..TIPO_DOCUMENTO TD "
-                    gs_Sql = gs_Sql & "Where O.operacion = ROP.operacion "
-                    gs_Sql = gs_Sql & "AND O.operacion = D.operacion "
-                    gs_Sql = gs_Sql & "AND OD.operacion_definida_global = " & OpDefGlobal
-                    gs_Sql = gs_Sql & " AND O.status_operacion = 0 "
-                    gs_Sql = gs_Sql & "AND D.operacion = ROP.operacion "
-                    gs_Sql = gs_Sql & "AND D.tipo_documento = TD.tipo_documento "
-                    gs_Sql = gs_Sql & "AND O.producto_contratado = PC.producto_contratado "
-                    gs_Sql = gs_Sql & "AND O.operacion_definida= OD.operacion_definida "
-                    gs_Sql = gs_Sql & "AND OD.agencia = 1 and O.operacion *= RO.operacion"
+
+                    gs_Sql = "
+                        SELECT
+	                        DISTINCT O.operacion,
+	                        PC.cuenta_cliente,
+	                        O.monto_operacion,
+	                        CASE
+		                        RO.impreso WHEN 1 THEN 'Impreso'
+		                        ELSE ''
+	                        END,
+	                        'Fecha_Vencimiento'
+	                        = CASE
+		                        WHEN DATEPART(weekday, DATEADD(d, 6, fecha_captura))= 7 THEN DATEADD(d, 8, fecha_captura)
+		                        WHEN DATEPART(weekday, DATEADD(d, 6, fecha_captura))= 1 THEN DATEADD(d, 7, fecha_captura)
+		                        ELSE DATEADD(d, 8, fecha_captura)
+	                        END,
+	                        fecha_operacion
+                        from
+	                        TICKET..DEPOSITO_PME ROP
+	                        INNER JOIN TICKET..OPERACION O ON O.operacion = ROP.operacion
+	                        INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	                        INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	                        LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+	                        INNER JOIN TICKET..DEPOSITO D ON  O.operacion = D.operacion AND D.operacion = ROP.operacion
+	                        INNER JOIN TICKET..TIPO_DOCUMENTO TD ON D.tipo_documento = TD.tipo_documento
+                        WHERE 
+	                        OD.operacion_definida_global = " & OpDefGlobal & "
+	                        AND 
+	                        O.status_operacion = 0
+	                        AND 
+	                        OD.agencia = 1
+                    "
+
                 End If
             Case 590
                 'Obtiene las operaciones con fecha_cierre <= "HOY" ya Validadas
@@ -258,206 +285,232 @@ Public Class frmOperacReport
     End Sub
 
     Private Sub ListaTraspasos()
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " P.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " From TICKET..TRASPASO T,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO P,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD, "
-        gs_Sql = gs_Sql & " CATALOGOS" & ".dbo.AGENCIA A,"
-        gs_Sql = gs_Sql & " TICKET..CUENTA_EJE CE,"
-        gs_Sql = gs_Sql & " TICKET..TIPO_CUENTA_EJE TCE,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " Where O.operacion = T.operacion and"
-        gs_Sql = gs_Sql & " P.producto_contratado = O.producto_contratado and"
-        gs_Sql = gs_Sql & " O.operacion_definida = OD.operacion_definida and"
-        gs_Sql = gs_Sql & " A.agencia = " & mnAgencia
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            P.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            From
+	            TICKET..TRASPASO T
+	            INNER JOIN TICKET..OPERACION O ON O.operacion = T.operacion
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO P ON P.producto_contratado = O.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	            INNER JOIN CATALOGOS.dbo.AGENCIA A ON P.agencia = A.agencia
+	            INNER JOIN TICKET..CUENTA_EJE CE ON P.producto_contratado = CE.producto_contratado
+	            INNER JOIN TICKET..TIPO_CUENTA_EJE TCE ON CE.tipo_cuenta_eje = TCE.tipo_cuenta_eje
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            Where
+	            A.agencia = " & mnAgencia & "
+	            and OD.operacion_definida_global = 87
+	            and O.fecha_operacion >'" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and O.status_operacion >= 2
+	            and O.status_operacion <> 250
+        "
+
         If mnTipoRep = 11 Then
-            gs_Sql = gs_Sql & " and OD.operacion_definida_global = 87"
+            gs_Sql = gs_Sql & " AND OD.operacion_definida_global = 87"
         Else
-            gs_Sql = gs_Sql & " and OD.operacion_definida_global = 97"
+            gs_Sql = gs_Sql & " AND OD.operacion_definida_global = 97"
         End If
-        gs_Sql = gs_Sql & " and P.producto_contratado = O.producto_contratado"
-        gs_Sql = gs_Sql & " and P.agencia = A.agencia"
-        gs_Sql = gs_Sql & " and P.producto_contratado = CE.producto_contratado"
-        gs_Sql = gs_Sql & " and CE.tipo_cuenta_eje =  TCE.tipo_cuenta_eje"
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.status_operacion >= 2"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
+
     End Sub
 
     Private Sub ListaAperturasDia()
         'Obtiene TODAS las operaciones de Apertura de Cuenta con Fecha valor HOY
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where operacion_definida_global =100 "               'Apertura de Cuentas
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"                       'No Canceladas
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and OD.operacion_definida = O.operacion_definida"
-        gs_Sql = gs_Sql & " and PC. agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..OPERACION O
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON OD.operacion_definida = O.operacion_definida
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            where
+	            operacion_definida_global = 100
+	            and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion <'" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and O.status_operacion <> 250
+	            and PC. agencia = 1
+            order by
+	            O.operacion
+        "
     End Sub
 
     Private Sub ListaAperturas()
         'Obtiene las operaciones de Apertura de Cuenta ya validadas
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC, "
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where operacion_definida_global =100 "              'Apertura de Cuenta
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.status_operacion in (2,3,4,5)"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"                      'No Canceladas
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and OD.operacion_definida = O.operacion_definida"
-        gs_Sql = gs_Sql & " and PC. agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..OPERACION O
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON OD.operacion_definida = O.operacion_definida
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            where
+	            operacion_definida_global = 100
+	            and O.fecha_operacion >  '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and O.status_operacion in (2, 3, 4, 5)
+	            and O.status_operacion <> 250
+	            and PC. agencia = 1
+            order by
+	            O.operacion
+        "
     End Sub
 
     Private Sub ListaAperturasVal()
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC, "
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where operacion_definida_global =100 "              'Apertura de Cuenta
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.status_operacion in (2,3,4,5)"
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250"                      'No Canceladas
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida = OD.operacion_definida "
-        gs_Sql = gs_Sql & " and PC.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..OPERACION O
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            where
+	            operacion_definida_global = 100
+	            and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and O.status_operacion in (2, 3, 4, 5)
+	            and O.status_operacion <> 250
+	            and PC.agencia = 1
+            order by
+	            O.operacion
+        "
     End Sub
 
     Private Sub ListaCDs()
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..COMPRA_CD CD,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where operacion_definida_global =80 "
-        gs_Sql = gs_Sql & " and O.operacion = CD.operacion "
-        gs_Sql = gs_Sql & " and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and status_operacion in (2,3,4,5)"
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida = OD.operacion_definida"
-        gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..OPERACION O
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..COMPRA_CD CD ON O.operacion = CD.operacion
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida and OD.agencia = 1
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion	
+            where
+	            operacion_definida_global = 80
+	            and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and O.fecha_operacion <  '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and status_operacion in (2, 3, 4, 5)
+            order by
+	            O.operacion"
+
+
     End Sub
 
     Private Sub ListaCDsLista()
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..OPERACION O,"
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..COMPRA_CD CD,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " where operacion_definida_global =80 "
-        gs_Sql = gs_Sql & " and O.operacion = CD.operacion "
-        gs_Sql = gs_Sql & " and O.fecha_operacion >= '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & "'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.fecha_operacion <= '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & "'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and status_operacion in (2,3,4,5)"
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida = OD.operacion_definida"
-        gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion "
-        gs_Sql = gs_Sql & " order by O.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..OPERACION O
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..COMPRA_CD CD ON O.operacion = CD.operacion
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+            where
+	            operacion_definida_global = 80	
+	            and O.fecha_operacion >=  '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & "'
+	            and O.fecha_operacion <= '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & "'
+	            and status_operacion in (2, 3, 4, 5)
+	            and OD.agencia = 1
+            order by
+	            O.operacion
+        "
     End Sub
 
     Private Sub ListaDepAreaInt(ByVal OpDefGlobal As String)
         'Obtiene las operaciones con fecha_cierre <= "HOY" ya Validadas
-        gs_Sql = "Select distinct"
-        gs_Sql = gs_Sql & " O.operacion,"
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " from TICKET..DEPOSITO_PME ROP,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION O, "
-        gs_Sql = gs_Sql & " TICKET..PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & " TICKET..OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & " TICKET..REPORTE_OPERACION RO,"
-        gs_Sql = gs_Sql & " TICKET..DEPOSITO D,"
-        gs_Sql = gs_Sql & " TICKET..TIPO_DOCUMENTO TD"
-        gs_Sql = gs_Sql & " where OD.operacion_definida_global = " & OpDefGlobal
-        gs_Sql = gs_Sql & " and O.status_operacion <> 250 and O.status_operacion >= 2"
-        gs_Sql = gs_Sql & " and O.operacion = ROP.operacion"
-        gs_Sql = gs_Sql & " and O.operacion = D.operacion"
-        gs_Sql = gs_Sql & " and D.operacion = ROP.operacion"
-        gs_Sql = gs_Sql & " and D.tipo_documento = TD.tipo_documento"
-        gs_Sql = gs_Sql & " and ROP.fecha_cierre > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and ROP.fecha_cierre < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & " and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & " and O.operacion_definida= OD.operacion_definida"
-        gs_Sql = gs_Sql & " and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & " and O.operacion *= RO.operacion"
+        gs_Sql = "
+            Select
+	            distinct O.operacion,
+	            PC.cuenta_cliente,
+	            O.monto_operacion,
+	            case
+		            RO.impreso when 1 then 'Impreso'
+		            else ''
+	            end
+            from
+	            TICKET..DEPOSITO_PME ROP
+	            INNER JOIN TICKET..OPERACION O ON O.operacion = ROP.operacion
+	            INNER JOIN TICKET..PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	            INNER JOIN TICKET..OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	            LEFT JOIN TICKET..REPORTE_OPERACION RO ON O.operacion = RO.operacion
+	            INNER JOIN TICKET..DEPOSITO D ON O.operacion = D.operacion
+	            INNER JOIN TICKET..TIPO_DOCUMENTO TD ON D.tipo_documento = TD.tipo_documento
+            where
+	            OD.operacion_definida_global = " & OpDefGlobal & "
+	            and O.status_operacion <> 250
+	            and O.status_operacion >= 2	
+	            and ROP.fecha_cierre > ''" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and ROP.fecha_cierre < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	            and OD.agencia =" & mnAgencia
     End Sub
 
     Private Sub ListaRetAreaInt()
         'Obtiene las operaciones con fecha_operacion = "HOY" ya validadas
-        gs_Sql = "Select distinct "
-        gs_Sql = gs_Sql & " O.operacion, "
-        gs_Sql = gs_Sql & " PC.cuenta_cliente,"
-        gs_Sql = gs_Sql & " O.monto_operacion,"
-        gs_Sql = gs_Sql & " case RO.impreso when 1 then 'Impreso' else '' end"
-        gs_Sql = gs_Sql & " From"
-        gs_Sql = gs_Sql & "  RETIRO_PME ROP,"
-        gs_Sql = gs_Sql & "  OPERACION O,"
-        gs_Sql = gs_Sql & "  PRODUCTO_CONTRATADO PC,"
-        gs_Sql = gs_Sql & "  OPERACION_DEFINIDA OD,"
-        gs_Sql = gs_Sql & "  REPORTE_OPERACION RO"
-        gs_Sql = gs_Sql & " Where"
-        gs_Sql = gs_Sql & "  OD.operacion_definida_global = 89"
-        gs_Sql = gs_Sql & "  and O.status_operacion <> 250"
-        gs_Sql = gs_Sql & "  and O.status_operacion >= 2"
-        gs_Sql = gs_Sql & "  and O.operacion = ROP.operacion"
-        gs_Sql = gs_Sql & "  and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & "  and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'"      'Fecha "HOY"
-        gs_Sql = gs_Sql & "  and O.producto_contratado = PC.producto_contratado"
-        gs_Sql = gs_Sql & "  and O.operacion_definida=OD.operacion_definida"
-        gs_Sql = gs_Sql & "  and OD.agencia = " & mnAgencia
-        gs_Sql = gs_Sql & "  and O.operacion *= RO.operacion"
-        gs_Sql = gs_Sql & " Order By"
-        gs_Sql = gs_Sql & "  O.operacion"
+        gs_Sql = "
+        Select
+	        distinct O.operacion,
+	        PC.cuenta_cliente,
+	        O.monto_operacion,
+	        case
+		        RO.impreso when 1 then 'Impreso'
+		        else ''
+	        end
+        From
+	        RETIRO_PME ROP
+	        INNER JOIN OPERACION O ON O.operacion = ROP.operacion
+	        INNER JOIN PRODUCTO_CONTRATADO PC ON O.producto_contratado = PC.producto_contratado
+	        INNER JOIN OPERACION_DEFINIDA OD ON O.operacion_definida = OD.operacion_definida
+	        LEFT JOIN REPORTE_OPERACION RO ON O.operacion = RO.operacion
+        Where
+	        OD.operacion_definida_global = 89
+	        and O.status_operacion <> 250
+	        and O.status_operacion >= 2
+	        and O.fecha_operacion > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	        and O.fecha_operacion < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
+	        and OD.agencia = " & mnAgencia & "
+        Order By
+	        O.operacion
+        "
     End Sub
     '----------------------------------------------------------------------------
     'Llena una lista de Tipo ListView con el Query Determinado

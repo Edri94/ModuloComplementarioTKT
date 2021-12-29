@@ -1045,7 +1045,6 @@ C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIP
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\bin\Debug\stdole.dll
-C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketComplementario.vbproj.AssemblyReference.cache
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\Interop.CRQUERYENGINE.dll
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\Interop.MNICript.dll
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketComplementario.vbproj.ResolveComReference.cache
@@ -1122,3 +1121,4 @@ C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIP
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketPrincipal.exe
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketPrincipal.xml
 C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketPrincipal.pdb
+C:\Users\MI05332\Documents\practicas\visual basic\ModuloComplementarioTKT\ENCRIPTADORNET\obj\Debug\TicketComplementario.vbproj.AssemblyReference.cache

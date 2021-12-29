@@ -124,7 +124,7 @@ Public Class Login
         UserBloqueado = d.validaUserB(txLogin.Text.Trim())
         UserAnulado = d.validaUserA(txLogin.Text.Trim())
         ExistePass = d.validaPass(txLogin.Text.Trim(), txPass.Text.Trim())
-        ExistePass = 1
+        ExistePass = 1 'pruebas
 
         If ExisteUser = "0" Then
             MsgBox("El usuario no existe o esta mal escrito, favor de verificar", vbInformation, "Validación")
@@ -232,5 +232,10 @@ Public Class Login
             MantPasswd.ShowDialog()
             Exit Sub
         End If
+    End Sub
+
+    Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txLogin.Text = "B9662995" 'pruebas
+        txPass.Text = "hola12345" 'pruebas
     End Sub
 End Class

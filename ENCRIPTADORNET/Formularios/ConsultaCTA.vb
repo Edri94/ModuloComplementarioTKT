@@ -278,6 +278,9 @@
             'obtenemos estatus de la operaciòn
             iEstatusOpe = dtcta.Rows(0).Item(4)
             'MsgBox("realizo cargaparte1")
+            Dim prueba As String
+
+            prueba = dtcta.Rows(0).Item(7).ToString()
             txtFecCan.Text = dtcta.Rows(0).Item(7).ToString().Substring(0, 16)
             txtFecCan.Visible = False
             Label28.Visible = False

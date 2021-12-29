@@ -652,13 +652,33 @@ Public Class Datasource
     ' Carga de datos de Cliente
     Function LoadCuenta(ByVal sCuenta As String) As DataTable
         Dim s As String
-        s = " Select  PC.producto_contratado, PC.cuenta_cliente, CL.fecha_alta, convert(char(10),CL.fecha_alta,108), "
-        s &= " OP.status_operacion, OP.operacion, CL.fecha_alta, PC.fecha_vencimiento "
-        s &= " From TICKET..OPERACION OP, TICKET..PRODUCTO_CONTRATADO PC, CATALOGOS..CLIENTE CL "
-        s &= " Where PC.producto_contratado = OP.producto_contratado And PC.producto = 8009 "
-        s &= " And OP.operacion_definida = 8100 And PC.cuenta_cliente =  '" & sCuenta & "'"
-        s &= " And PC.cuenta_cliente = CL.cuenta_cliente And pc.agencia = cl.agencia "
-        s &= " and PC.agencia = 1 "
+
+        s = " 
+            Select
+	            PC.producto_contratado,
+	            PC.cuenta_cliente,
+	            CL.fecha_alta,
+	            convert(char(10),
+	            CL.fecha_alta,
+	            108),
+	            OP.status_operacion,
+	            OP.operacion,
+	            CL.fecha_alta,
+	            ISNULL(PC.fecha_vencimiento,'1900-01-01 00:00') as fecha_vencimiento 
+            From
+	            TICKET..OPERACION OP,
+	            TICKET..PRODUCTO_CONTRATADO PC,
+	            CATALOGOS..CLIENTE CL
+            Where
+	            PC.producto_contratado = OP.producto_contratado
+	            And PC.producto = 8009
+	            And OP.operacion_definida = 8100
+	            And PC.cuenta_cliente = '" & sCuenta & "'
+	            And PC.cuenta_cliente = CL.cuenta_cliente
+	            And pc.agencia = cl.agencia
+	            and PC.agencia = 1
+            "
+
         Return Consulta(s, "LoadCuenta")
 
     End Function
