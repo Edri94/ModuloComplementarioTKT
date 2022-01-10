@@ -117,7 +117,6 @@
     'Llena el combo de perfiles dependiendo de la aplicacion que se trate.
     '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---
     Public Sub LlenaComboPerfiles()
-        Dim ln_Indice As Integer
         Dim dtRespuesta As DataTable
         'cmbPerfiles.Clear
         ReDim objModPErmisos.ga_Perfiles(1, 0)
@@ -301,9 +300,6 @@
         LstChkComentario.Enabled = False
     End Sub
     Private Sub cmdActualizar_Click(sender As Object, e As EventArgs) Handles cmdActualizar.Click
-        Dim ls_PermisosAnt As String
-        Dim ls_AutorizaAnt As String
-        Dim ls_FechaAnt As String
         Dim NumRegistros As Integer
         GuardaStatusAutorizaciones()
         If cmbPerfiles.SelectedIndex > -1 And cmbPerfiles.Items.Count > 0 Then
@@ -342,7 +338,7 @@ ActualizaPerfil:
     Private Sub GuardaStatusAutorizaciones()
         Dim i As Integer
         Dim lb_Actualiza As Boolean
-        Dim ls_Cambios As String
+        Dim ls_Cambios As String = ""
         Dim NumRegistros As Integer
 
         If Not mb_CambioComentario Then
@@ -438,7 +434,6 @@ ActualizaPerfil:
     '  Eliminación de usuarios Anulados y Bloqueados con el perfil a eliminar, una vez pasada la validación anterior
     Private Sub cmdEliminar_Click(sender As Object, e As EventArgs) Handles cmdEliminar.Click
         Dim i As Integer
-        Dim ln_Indice As Integer
         Dim dtRespuesta As DataTable
         Dim NumRegistros As Integer
         'Busca si el perfil esta asignado a algun usuario

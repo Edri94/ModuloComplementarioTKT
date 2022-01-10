@@ -141,7 +141,6 @@
     'Llena el combo de perfiles dependiendo de la aplicacion que se trate.
     '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=---
     Public Sub LlenaComboPerfiles()
-        Dim ln_Indice As Integer
         Dim dtRespuesta As DataTable
         'cmbPerfiles.Clear
         ReDim objModPErmisos.ga_Perfiles(1, 0)

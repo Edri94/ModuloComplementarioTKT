@@ -154,7 +154,7 @@ Public Class frmGeneraPrinterChq
         Dim lsFechaFin As String
         Dim lnErrores As Integer
         Dim lnConteo As Integer
-        Dim lsPathLocal As String
+        Dim lsPathLocal As String = ""
         Dim lsPathTemp As String
         Dim lsPathChequera As String
         Dim iCount As Integer
@@ -568,7 +568,6 @@ ErrorConeccion:
 
     Private Sub btPrint_Click(sender As Object, e As EventArgs) Handles btPrint.Click
         Dim LsFormula As String
-        Dim lsFechaFin As String
 
         If chkReimpresion.Checked = True Then
             If Trim$(dtpFechaIni.Text) = "" Then

@@ -68,7 +68,6 @@
     Public Sub LlenaLista(Objeto As Control, Query As String)
         Dim d As New Datasource
         Dim dtListaUsuario As DataTable
-        Dim sSql As String
 
         'Llena combo Tipo de Cliente
         dtListaUsuario = d.RealizaConsulta(Query)

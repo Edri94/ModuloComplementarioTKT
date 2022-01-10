@@ -34,7 +34,7 @@
         ' Restablece el aspecto del cursor
         'ShowDefaultCursor
     End Sub
-    Private Function llenaGridOperRechazadas()
+    Private Sub llenaGridOperRechazadas()
         Dim strSqlquery As String
         Dim FechaHoy As Date = Date.Now
         Dim dtRespConsulta As DataTable
@@ -70,7 +70,7 @@
         For i = 0 To 3
             gridOperRechazadas.Columns(i).HeaderText = la_TitulosCampos(i).ToString
         Next
-    End Function
+    End Sub
 
     Private Sub cmdCancelar_Click(sender As Object, e As EventArgs) Handles cmdCancelar.Click
         Call LimpiarCampos

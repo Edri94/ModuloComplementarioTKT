@@ -103,11 +103,11 @@ Public Class frmRepOFAC
         '              "CATALOGOS" por la variable "DBCATALOGOS"
         '              BAGO-EDS-13/MZO/06. Uso de IsNull en concatenación de cadenas
 
-        Dim lsArchivo As String
+        Dim lsArchivo As String = ""
         Dim LsFormula As String
         Dim lsProducto As String
-        Dim lsStatusProducto1 As String
-        Dim lsstatusProducto2 As String
+        Dim lsStatusProducto1 As String = ""
+        Dim lsstatusProducto2 As String = ""
         Dim lsListaCuentas As String
         Dim lsCuentas As String
         Dim lsSelectionFormula As String

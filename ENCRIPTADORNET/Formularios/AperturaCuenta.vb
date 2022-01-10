@@ -636,6 +636,8 @@ Public Class AperturaCuenta
         Dim sTemp As String
         Dim iPos As Long
 
+        sTemp = ""
+
         sTexto = Trim(sTexto)
         Do While Len(sTexto) > 0
             iPos = InStr(1, sTexto, " ")
@@ -658,6 +660,8 @@ Public Class AperturaCuenta
         Dim iPos As Long
         Dim sTemp As String
         Dim sWord As String
+
+        sTemp = ""
 
         Do
             iPos = InStr(1, sTexto, " ")
@@ -732,6 +736,8 @@ Public Class AperturaCuenta
                 Exit For
             End If
         Next
+
+        Return iPos
 
     End Function
 

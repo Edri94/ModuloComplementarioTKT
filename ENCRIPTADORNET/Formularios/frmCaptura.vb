@@ -388,10 +388,9 @@ Public Class frmCaptura
         Dim sInsertaSoporte As String
         Dim sInsertDocto As String
 
-        Dim lsDoc As String
+        Dim lsDoc As String = ""
         Dim lsSoporte As String
-        Dim lnTipoInstrumento As Integer
-        Const iticketNodisp As Integer = 0
+
 
         Try
             'Verifica si el Horario de Operación es aún válido.
@@ -949,7 +948,6 @@ GuardaSoporte:
     Function BuscarDatosDocumento() As Boolean
         Dim d As New Datasource
         Dim dtDatosTpFuente As DataTable
-        Dim dtDatosFuente As DataTable
         Dim dtDatosDocto As DataTable
         Dim sFuente As String
         Dim iTipoFuente As Integer
@@ -1538,7 +1536,6 @@ GuardaSoporte:
         Dim dtDatostpInst As DataTable
         Dim dtDatostpOp As DataTable
         Dim dtDatosTpDivisa As DataTable
-        Dim dtDatosFuente As DataTable
         Dim lsNumDoc As String
         Dim lnIndice As Byte
         Dim lsLineaS As String
@@ -1796,7 +1793,6 @@ GuardaSoporte:
         Dim d As New Datasource
         Dim dtDatosSoporte As DataTable
         Dim lsSoporte As String
-        Dim lnIndice As Byte
         Dim dtDatosTpDivisa As DataTable
 
         dllTipoDocto.Enabled = False
@@ -1976,7 +1972,6 @@ GuardaSoporte:
         Dim d As New Datasource
         Dim dtListaClientes As DataTable
         Dim sCuenta As String
-        Dim sCuentaMercury As String
         Dim Index As Integer
 
         If mnTipoOp = 0 Then
@@ -2154,7 +2149,8 @@ GuardaSoporte:
             If dtBuscaActa.Rows.Count <> 0 Then
                 MsgBox("El documento tiene asociada el Acta No. " & Val(dtBuscaActa.Rows(0).Item(1)) & ",  para eliminarlo es necesario cancelar el Acta.", vbInformation, "Mensaje ")
                 mbDocTieneActa = True
-                Exit Function
+                Return Desconciliable
+                'Exit Function
             Else
                 lsActa = ""
                 'Busca todas las Actas Adm canceladas ligadas al Documento
@@ -2169,6 +2165,7 @@ GuardaSoporte:
                     lsActa = "(" & lsActa & ")"
                     dtBuscaActa = d.DesconciliaDocto(lsActa, msNumID, msTicket)
                 End If
+                Return Desconciliable
             End If
             Desconciliable = True
 
@@ -2177,7 +2174,8 @@ GuardaSoporte:
 
         Catch ex As Exception
             MsgBox("Ocurrio un error al intentar eliminar el documento.", vbCritical, "Mensaje Error")
-            Exit Function
+            Return Desconciliable
+            'Exit Function
         End Try
     End Function
 

@@ -307,14 +307,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TicketPrincipal.exe" size="12431872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TicketPrincipal.exe" size="12432384">
       <assemblyIdentity name="TicketPrincipal" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>eJ0L9Mg0mi/b1gCehjOFnM2/3RySESmEMOxavOEo97g=</dsig:DigestValue>
+        <dsig:DigestValue>+5F1/GrOl++y8PTJGfKeDbC06uV2UYYlaiXTmbyKIOE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

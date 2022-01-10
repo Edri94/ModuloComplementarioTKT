@@ -167,8 +167,6 @@
     End Sub
 
     Private Sub cmdImprimir_Click(sender As Object, e As EventArgs) Handles cmdImprimir.Click
-        Dim SFechaIniPar As String
-        Dim SFechaFinPar As String
 
         'fe_Inicio = SFechaIniPar
         'fe_Inicio = strFechaInicio

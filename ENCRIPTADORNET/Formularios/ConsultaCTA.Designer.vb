@@ -1025,7 +1025,7 @@ Partial Class ConsultaCTA
         Me.lblMotivoCancelacion.Location = New System.Drawing.Point(21, 89)
         Me.lblMotivoCancelacion.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblMotivoCancelacion.Name = "lblMotivoCancelacion"
-        Me.lblMotivoCancelacion.Size = New System.Drawing.Size(894, 42)
+        Me.lblMotivoCancelacion.Size = New System.Drawing.Size(916, 42)
         Me.lblMotivoCancelacion.TabIndex = 53
         Me.lblMotivoCancelacion.Text = "lblMotivoCancelacion"
         '
@@ -1057,7 +1057,7 @@ Partial Class ConsultaCTA
         Me.lblAlertas.Location = New System.Drawing.Point(18, 198)
         Me.lblAlertas.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblAlertas.Name = "lblAlertas"
-        Me.lblAlertas.Size = New System.Drawing.Size(894, 62)
+        Me.lblAlertas.Size = New System.Drawing.Size(919, 62)
         Me.lblAlertas.TabIndex = 50
         Me.lblAlertas.Text = "lblAlertas"
         '
@@ -1066,7 +1066,7 @@ Partial Class ConsultaCTA
         Me.lblBloqueos.Location = New System.Drawing.Point(18, 135)
         Me.lblBloqueos.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblBloqueos.Name = "lblBloqueos"
-        Me.lblBloqueos.Size = New System.Drawing.Size(894, 60)
+        Me.lblBloqueos.Size = New System.Drawing.Size(919, 60)
         Me.lblBloqueos.TabIndex = 49
         Me.lblBloqueos.Text = "lblBloqueo"
         '

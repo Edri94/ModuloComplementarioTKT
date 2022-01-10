@@ -152,8 +152,8 @@ Public Class frmManntoCuentas
         Dim sWhere As String
         Dim bActivo As Boolean
 
-        Dim strTipoMannto As String
-        Dim strTipoManntoCR As String
+        Dim strTipoMannto As String = ""
+        Dim strTipoManntoCR As String = ""
         Dim intTipoMannto As Integer
 
         Dim iRegistros As Integer

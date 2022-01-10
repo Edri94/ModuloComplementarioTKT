@@ -179,8 +179,10 @@ Public Class modPermisos
                     PermisosPorUsuario = True
                 End If
             End If
-
         End If
+
+        Return PermisosPorUsuario
+
     End Function
     '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     ' Busca el permiso en el arreglo de permisos y devuelve su valor.
@@ -205,7 +207,7 @@ Public Class modPermisos
     ' 08-02-2002
     '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     Public Function Hex2Bin(strHex As String) As String
-        Dim strBin As String
+        Dim strBin As String = ""
         Dim i As Integer
         For i = 1 To Len(strHex)
             Select Case Mid(strHex, i, 1)

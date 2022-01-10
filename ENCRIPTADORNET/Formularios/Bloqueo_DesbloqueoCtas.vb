@@ -337,7 +337,6 @@
 
     Private Sub chkAlerta_CheckedChanged(sender As Object, e As EventArgs) Handles chkAlerta.CheckedChanged
         Dim indice As Integer
-        Dim i As Integer
         Dim lbTieneAlertas As Boolean = False
 
         If mbCarga Then
@@ -525,10 +524,6 @@
     Private Sub cmdGuardar_Click(sender As Object, e As EventArgs) Handles cmdGuardar.Click
         If cmbAgencia.SelectedIndex > 0 Then '---- RACB 10/03/2021
             Dim indice As Integer
-            Dim indDetAlerta As Integer
-            Dim bComentario As Boolean
-            Dim iChecks As Integer
-            Dim n As Integer
             Dim d As New Datasource
             Dim c As New DataSourceModCancelaCtas
             Dim dbloqueos As New DataTable

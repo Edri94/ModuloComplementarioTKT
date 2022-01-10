@@ -479,7 +479,7 @@ Public Class frmOperacReport
 	            OD.operacion_definida_global = " & OpDefGlobal & "
 	            and O.status_operacion <> 250
 	            and O.status_operacion >= 2	
-	            and ROP.fecha_cierre > ''" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
+	            and ROP.fecha_cierre > '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 00:00:00'
 	            and ROP.fecha_cierre < '" & CDate(gs_FechaHoy).Year & "-" & CDate(gs_FechaHoy).Month & "-" & CDate(gs_FechaHoy).Day & " 23:59:59'
 	            and OD.agencia =" & mnAgencia
     End Sub
@@ -767,11 +767,9 @@ ErrorDeclaration:
 
     Private Sub cmdImprimir_Click(sender As Object, e As EventArgs) Handles cmdImprimir.Click
         Dim ls_PorImprimir As String
-        Dim ln_Indice As Integer
         Dim ln_NumOps As Integer
         Dim Agencia As String
         Dim bRegistrosSeleccionados As Boolean
-        Dim dtRespConsulta As DataTable
         Dim rptDoc As New ReportDocument
         Dim ArchReimpresion As String = "Depo_Ret_General.pdf"
         Dim sNumRep As String = ""
@@ -1068,7 +1066,7 @@ FinReporte:
     End Sub
 
     Private Sub cmdCancel_Click(sender As Object, e As EventArgs) Handles cmdCancel.Click
-        Dim sTitulo As String
+        Dim sTitulo As String = ""
 
         Select Case mnTipoRep
             Case 5

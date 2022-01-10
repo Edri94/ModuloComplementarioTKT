@@ -521,8 +521,6 @@ CeldaComun:
     'Limpia los campos.Tipo 0: Limpia Todo, 1: Limpia ambos grids, 2:Limpia Grid Doctos, 3:Limpia Grid Tkt
     '-----------------------------------------------------------------------------------------------------
     Private Sub LimpiaCampos(Tipo As Byte)
-        Dim ln_Cols As Byte
-
         If Tipo = 0 Then
             lbSelManual = False
             'txtCuenta.Text = "      " '.PadRight(6, " ") ' = ""
@@ -576,8 +574,6 @@ Fin:
     End Sub
 
     Private Sub cmbDiferencia_LostFocus(sender As Object, e As EventArgs) Handles cmbDiferencia.LostFocus
-        Dim ln_Rows As Integer
-
         'For ln_Rows = 0 To grdDoc.Rows - 1                'Reestablece el tamaño de las celdas del grid
         'If grdDoc.RowHeight(ln_Rows) <> 225 Then
         '    grdDoc.RowHeight(ln_Rows) = 225

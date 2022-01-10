@@ -2372,6 +2372,9 @@ errLogOn:
         Dim iFolioIni As Integer
         Dim iFolioFin As Integer
 
+        dRegistro = Nothing
+
+
         If valida_coneccion_sql() Then
             conec.Open()
             Transac = conec.BeginTransaction()
@@ -2473,7 +2476,7 @@ errLogOn:
                 Transac.Commit()
                 Return dRegistro
             Catch ex As Exception
-                'Console.WriteLine("Error en Commit " & ex.GetType() & " " & ex.Message)
+                'Console.WriteLine("Error en Commit " & ex.GetType() & " " & ex.Message)             
                 Try
                     Transac.Rollback()
                 Catch ex2 As Exception
@@ -2481,6 +2484,9 @@ errLogOn:
                 End Try
             End Try
         End If
+
+        Return dRegistro
+
     End Function
 
 #Region "CONSULTA APERTURA CHEQUERA PENDIENTE"
@@ -2684,6 +2690,8 @@ errLogOn:
         Dim Transac As SqlTransaction
         Dim iRegistro As Integer
 
+        sRegistro = ""
+
         If valida_coneccion_sql() Then
             conec.Open()
             Transac = conec.BeginTransaction()
@@ -2719,6 +2727,9 @@ errLogOn:
                 Return sRegistro
             End Try
         End If
+
+        Return sRegistro
+
     End Function
 
     Function CancelaChequera500(ByVal iRegistro As String) As String()
@@ -3031,6 +3042,7 @@ errLogOn:
                                ByVal txReferencia As String, ByVal txCuentaMER As String)
         Dim lsGsSql As String
 
+        lsGsSql = ""
         'lsGsSql = " " & DEFAULT_SRVRMERCURY & "." & DBTICKET & ".NuevoMIS.sp_a_busca_ticket "
         lsGsSql &= NumTab & ", "                     'Tipo de Operacion (0 Dep, 1 Ret)
         lsGsSql &= txTicketMER & ", "       'Ticket de Mercury
@@ -3271,6 +3283,8 @@ errLogOn:
         Dim sDoc As String
         Const n_ticket_Nodisp As Integer = 0
         Dim iRegistro As Integer
+
+        sRegistro = ""
 
 
         If valida_coneccion_sql() Then
@@ -3566,7 +3580,7 @@ errLogOn:
         Dim lsGsSql As String
         Dim d As New Datasource
         Dim dRegistro As DataTable
-        Dim sRegistro As String
+        Dim sRegistro As String = ""
         Dim conec As SqlConnection = get_coneccion_sql()
         Dim command As SqlCommand = conec.CreateCommand
         Dim Transac As SqlTransaction
@@ -3677,10 +3691,13 @@ errLogOn:
                 Return sRegistro
             End Try
         End If
-    End Function
-    Function EliminaSoporte()
+
+        Return sRegistro
 
     End Function
+    'Function EliminaSoporte()
+
+    'End Function
 
     Function BuscaActa(ByVal sNumID As String, ByVal ActCancel As Byte) As DataTable
         Dim lsGsSql As String
@@ -3706,7 +3723,7 @@ errLogOn:
         Dim lsGsSql As String
         Dim d As New Datasource
         Dim dtDoctoConcil As DataTable
-        Dim sRegistro As String
+        Dim sRegistro As String = ""
         Dim conec As SqlConnection = get_coneccion_sql()
         Dim command As SqlCommand = conec.CreateCommand
         Dim Transac As SqlTransaction
@@ -4029,6 +4046,9 @@ errLogOn:
                 End Try
             End Try
         End If
+
+        Return sRegistro
+
     End Function
 
 #End Region

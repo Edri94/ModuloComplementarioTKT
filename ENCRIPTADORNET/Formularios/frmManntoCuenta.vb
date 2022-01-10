@@ -504,7 +504,7 @@ Public Class frmManntoCuenta
     End Sub
 
     Private Sub txtNombre_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNombre.KeyPress
-        Dim lnCuentaObjetos As Integer, i As Integer
+        Dim lnCuentaObjetos As Integer
         lnCuentaObjetos = Me.Controls.Count
 
         If e.KeyChar = Convert.ToChar(Keys.Return) Then
@@ -1282,19 +1282,13 @@ Public Class frmManntoCuenta
 
         Dim lnUbicaDEnvio As Integer
         Dim lsCuentaPesos As String
-        Dim lstipoempresa As String
-        Dim lstipoSociedad As String
-        Dim lsNam1 As String
-        Dim lsName As String
+        Dim lstipoempresa As String = ""
         Dim lsnemonico As String
         Dim lsshortname As String
         Dim strValidaEjecucion As String
-        Dim strTabla As String
         Dim lngOperacion As Long
         'Insert a la tabla Mantenimiento_cuenta
         Dim strOpciones() As String, i As Integer
-        Dim lnConsecutivoBitacora As Long
-        Dim lnConsecutivoMant As Long
         Dim lnCuentaObjetos As Integer
         'Dim lsFechaOriginal As String
         Dim lsFechaObtenida As String

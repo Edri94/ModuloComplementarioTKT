@@ -12,10 +12,10 @@ Public Class Login
         Dim dtlogin As New DataTable
         Dim dtPermAutor As New DataTable
         Dim validaLogin As Integer
-        Dim sPermiso0 As String
-        Dim sPermiso1 As String
-        Dim sPermiso2 As String
-        Dim sPermiso3 As String
+        Dim sPermiso0 As String = ""
+        Dim sPermiso1 As String = ""
+        Dim sPermiso2 As String = ""
+        Dim sPermiso3 As String = ""
 
         bLogin = False
 
@@ -162,8 +162,8 @@ Public Class Login
         Dim ign_Usuario As Integer
         Dim NumRegistros As Integer
         Dim ign_Origen As Integer
-        Dim lsFechaPassword As String
-        Dim lsFechaUltimoAcceso As String
+        Dim lsFechaPassword As String = ""
+        Dim lsFechaUltimoAcceso As String = ""
         Dim iParamCambioPass As Integer
         Dim VistaMantPasswd As New MantPasswd
 
@@ -237,5 +237,9 @@ Public Class Login
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txLogin.Text = "B9662995" 'pruebas
         txPass.Text = "hola12345" 'pruebas
+    End Sub
+
+    Private Sub txLogin_TextChanged(sender As Object, e As EventArgs) Handles txLogin.TextChanged
+
     End Sub
 End Class

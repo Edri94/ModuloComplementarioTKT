@@ -17,6 +17,12 @@
         chkTipoRep0.Checked = False
         cmdConsultar.Enabled = False
         cmdImprimir.Enabled = False
+
+        tag0 = ""
+        tag1 = ""
+        tag2 = ""
+        tag3 = ""
+
     End Sub
 
     Private Sub chkOperacion0_CheckedChanged(sender As Object, e As EventArgs) Handles chkOperacion0.CheckedChanged
@@ -84,7 +90,7 @@
     End Sub
 
     Private Sub cmdConsultar_Click(sender As Object, e As EventArgs) Handles cmdConsultar.Click
-        Dim lsOperDefinidas As String
+        Dim lsOperDefinidas As String = ""
         Dim Ls_Sel As String
         Dim Ls_Selcount As String
         Dim Ls_Selselect As String

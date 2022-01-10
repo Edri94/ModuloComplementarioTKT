@@ -312,8 +312,7 @@ ErrHdlr:
     '    End If
     'End Sub
     Private Function OperacionesDefinidas() As String
-        Dim Ls_OperaDef As String
-        Dim Ln_x As Byte
+        Dim Ls_OperaDef As String = ""
         'For Ln_x = 0 To 3
         'If Trim(chkOperacion(Ln_x).tag) <> "" Then
         If chkOperacion1.Tag <> "" Then
@@ -347,7 +346,7 @@ ErrHdlr:
     '**********************************************************
     Private Function CrearFecha() As String
 
-        Dim ls_Fecha As String
+        Dim ls_Fecha As String = ""
 
         Select Case Month(dtpFecha.Value)
             Case 1 : ls_Fecha = "Jan"
@@ -460,6 +459,9 @@ ErrHdlr:
     Private Sub RepOpIntSaldosSwift()
 
         Dim Ls_Sel As String, Ls_Consulta As String, Ls_OperDefOP As String
+
+        Ls_Consulta = ""
+        Ls_OperDefOP = ""
 
         ''Si está activado el Tipo de Reporte Swift, realiza la consulta
         'If chkTipoRep(1).Value = -1 And chkTipoRep(1).Enabled = True Then

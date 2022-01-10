@@ -30,7 +30,6 @@ Public Class frmRepTDOvernight
     End Sub
 
     Private Sub cmdAceptar_Click(sender As Object, e As EventArgs) Handles cmdAceptar.Click
-        Dim ln_Items As Integer
         Dim ln_NumOps As Integer
         Dim ls_Rango As String
         Dim rptDoc As New ReportDocument

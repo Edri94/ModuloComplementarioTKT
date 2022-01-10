@@ -406,7 +406,6 @@
     Sub CargaParte4(ByVal sProducCont As String)
         Dim d = New Datasource
         Dim dt As DataTable
-        Dim dtUbica As DataTable
         Dim iUbicacion As Integer = 0
         Dim iTipoUbicacion As Integer = 0
         Dim sCiudadEstado As String = ""
@@ -673,6 +672,7 @@
         Dim sSQLconsulta As String = ""
         Dim d As New Datasource
         Dim dtBuscaMotivo As DataTable
+        Dim dtBuscaDetMotivo As DataTable
 
         buscaMotivoBloqueo = False
 
@@ -685,7 +685,16 @@
         dtBuscaMotivo = d.RealizaConsulta(sSQLconsulta)
         If dtBuscaMotivo.Rows.Count > 0 Then
             sMotivoBloqueo = "Motivo de Bloqueo: " & dtBuscaMotivo.Rows(0).Item(2).ToString.Trim & " - " & dtBuscaMotivo.Rows(0).Item(1).ToString.Trim
+            'Busca el detalle del bloqueo
+            dtBuscaDetMotivo = Nothing
+            sSQLconsulta = "Select explicacion From DETALLE_STATUS "
+            sSQLconsulta &= "Where producto_contratado = " & sProducCont
+            sSQLconsulta &= "and status_bloqueo = 1"
 
+            dtBuscaDetMotivo = d.RealizaConsulta(sSQLconsulta)
+            If dtBuscaDetMotivo.Rows.Count > 0 Then
+                sMotivoBloqueo &= " " & Chr(13) & Space(25) & dtBuscaDetMotivo.Rows(0).Item(0).ToString.Trim
+            End If
         Else
             sMotivoBloqueo = "Sin Bloqueos."
             Exit Function
@@ -698,6 +707,7 @@
         Dim sSQLconsulta As String = ""
         Dim d As New Datasource
         Dim dtBuscaMotivo As DataTable
+        Dim dtBuscaDetMotivo As DataTable
 
         buscaMotivoAlerta = False
 
@@ -710,7 +720,16 @@
         dtBuscaMotivo = d.RealizaConsulta(sSQLconsulta)
         If dtBuscaMotivo.Rows.Count > 0 Then
             sMotivoAlerta = "Motivo de Alerta: " & dtBuscaMotivo.Rows(0).Item(2).ToString.Trim & " - " & dtBuscaMotivo.Rows(0).Item(1).ToString.Trim
+            'Busca el detalle del bloqueo
+            dtBuscaDetMotivo = Nothing
+            sSQLconsulta = "Select explicacion From DETALLE_STATUS "
+            sSQLconsulta &= "Where producto_contratado = " & sProducCont
+            sSQLconsulta &= "and status_bloqueo = 3"
 
+            dtBuscaDetMotivo = d.RealizaConsulta(sSQLconsulta)
+            If dtBuscaDetMotivo.Rows.Count > 0 Then
+                sMotivoAlerta &= " " & Chr(13) & Space(25) & dtBuscaDetMotivo.Rows(0).Item(0).ToString.Trim
+            End If
         Else
             sMotivoAlerta = "Sin Alertas."
             Exit Function

@@ -449,7 +449,6 @@ VerificaDiasFeriados:
         Dim sNum As String
         Dim iCuenta As Integer
         Dim d As New Datasource
-        Dim dtDatos As DataTable
         Dim Respuesta As Integer
 
         If lsField.ToString.Trim = "" Then
@@ -588,7 +587,7 @@ VerificaDiasFeriados:
     Function fgMenores(ByVal sTexto As String) As String
         Dim iCuenta As Integer
         Dim iPos As Long
-        Dim sTemp As String
+        Dim sTemp As String = ""
         Dim sWord As String
         Do
             iPos = InStr(1, sTexto, " ")
@@ -692,15 +691,14 @@ VerificaDiasFeriados:
         fgPosicionPalabra = IIf(iPos = 0&, 0&, iPos + 1&)
     End Function
 
-    Public Function ValidaFormato(ByVal strFecha As String, ByVal strFormato As String) As String
+    Public Sub ValidaFormato(ByVal strFecha As String, ByVal strFormato As String)
         'Public Function ValidaFormato(ByVal strFecha As String, Optional ByVal strFormato As String) As String
 
         Dim aux As String, aux2 As String,
         PrimerBloque As String, SegundoBloque As String, TercerBloque As String,
         intNumeros As Integer, intFormato As Integer
 
-        Dim arrTemporal() As String
-        Dim sBuffer As String, lBufferLen As Long, i As Integer
+        Dim sBuffer As String, lBufferLen As Long
 
         PrimerBloque = ""
         SegundoBloque = ""
@@ -828,7 +826,7 @@ VerificaDiasFeriados:
         '    strFecha = Replace(strFecha, UCase(arrTemporal(0)), arrTemporal(1))
         '    ValidaFormato = strFecha
         'End If
-    End Function
+    End Sub
 
 
     Public Function Base2Long(s As String, ByVal nB As Integer) As Long

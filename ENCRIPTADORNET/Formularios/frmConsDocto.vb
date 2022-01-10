@@ -71,7 +71,6 @@
         Dim dstsop As New Datasource
         Dim dttsop As DataTable
         Dim dttConcilia As DataTable
-        Dim dttDisco As DataTable
 
         lb_regresa = True
         Cursor = System.Windows.Forms.Cursors.WaitCursor  '    ShowWaitCursor

@@ -234,7 +234,6 @@ Public Class frmRepOpesDiarias
         ' botón para recorrer el datagridView y guardarlo en el archivo
 
         Const DELIMITADOR As String = ”,”
-        Dim ThisMoment As Date
 
         ' Ruta del fichero de texto agregando la fecha y la hora para la distintas exportaciones que se hagan a lo largo del día
         Dim fechaHora As String = DateTime.Now.ToString("dd-MM-yyyy H-mm-ss")

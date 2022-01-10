@@ -75,8 +75,6 @@
     End Sub
 
     Public Sub Muestra(ByVal Operacion As String, ByVal FED As Boolean, ByVal Tipo As Byte)
-
-        Dim ln_Destino As Long
         'Dim ln_Contador As Byte ALB- Se cambia por mn_Contador
         Dim ln_TipoOper As Byte
         Dim ln_digitalizacion As Long

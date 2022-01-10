@@ -469,6 +469,8 @@ NoSingOn:
         Dim strBin As String
         Dim i As Integer
 
+        strBin = ""
+
         For i = 1 To Len(strHex)
             Select Case Mid(strHex, i, 1)
                 Case "0" : strBin = strBin & "0000" '"0000"
@@ -667,9 +669,7 @@ NoSingOn:
     '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     Function ValorPermiso(strNombrePer As String)
         Dim i As Integer
-        Dim ival As Integer
-        Dim inom As String
-        Dim idsc As String
+
 
         ValorPermiso = -1
 
@@ -695,7 +695,7 @@ NoSingOn:
         'InitializeComponent()
 
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
-        Dim ls_FechaLimite As String
+        Dim ls_FechaLimite As String = ""
 
         'If Not IsMissing(LimiteMax) Then
         '    ls_FechaLimite = LimiteMax
@@ -733,12 +733,19 @@ NoSingOn:
                 'End If
                 Fecha = Date.Now
                 Fecha.SetFocus
+
+                Return False
                 Exit Function
             Else
                 'Fecha = FechaY2K(Fecha)
+                Return True
             End If
             ' ValidaFecha = True
+
         End If
+
+        Return False
+
 
     End Function
 

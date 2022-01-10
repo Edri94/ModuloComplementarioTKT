@@ -151,6 +151,8 @@
         Dim Registro As Integer
         Dim sStatBD As String
 
+        sStatBD = ""
+
         If optOpcion = "Activa" Then sStatBD = "8001"
         If optOpcion = "Cancelada" Then sStatBD = "8039"
 

@@ -172,7 +172,6 @@ Public Class frmSolicitudChequeraEspecial
             Dim d As New Datasource
             Dim iChequera As DataTable
             Dim sProdCont As String
-            Dim ln_Orden As Byte
             Dim sLastPart As String
 
             Dim lnUltimoChq As Long
@@ -392,7 +391,9 @@ Public Class frmSolicitudChequeraEspecial
             'Valida que la longitud del cheque sea mayor a cero
             If Ln_LongCheque <= 0 Then
                 MsgBox("El valor de la longitud del número de cheque es incorrecto, favor de verificar el parametro ""LONGFOLIOCHQ""", vbCritical, "Error")
-                Exit Function
+                'Exit Function
+                ObtenNuevoCheque = False
+                Return ObtenNuevoCheque
             End If
             Ln_ChequeInicial = Val(ValorParametro("FOLIOINICHQ")) - 1
 
@@ -400,7 +401,8 @@ Public Class frmSolicitudChequeraEspecial
             If Ln_ChequeInicial < 0 Then
                 MsgBox("El valor inicial del número de cheque es incorrecto, favor de verificar el parametro ""FOLIOINICHQ""", vbCritical, "Error")
                 ObtenNuevoCheque = False
-                Exit Function
+                'Exit Function
+                Return ObtenNuevoCheque
             End If
 
             'Obtiene ultimo_cheque y la longitud con la que fue generada la chequera la ultima ocasión

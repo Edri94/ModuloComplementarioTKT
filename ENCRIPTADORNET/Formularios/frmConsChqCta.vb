@@ -198,7 +198,6 @@
         Me.Refresh()
         Me.Show()
 
-        Dim ln_Rows As Integer
         Dim d As New Datasource
         Dim dt As DataTable
         Dim ds As New Datasource

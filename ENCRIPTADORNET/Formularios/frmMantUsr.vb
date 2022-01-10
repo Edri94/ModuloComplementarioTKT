@@ -57,7 +57,6 @@ Public Class frmMantUsr
         Me.Close()
     End Sub
     Private Sub cmbUsuarios_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbUsuarios.SelectedIndexChanged
-        Dim lnIndex As Byte
         If cmbUsuarios.DataSource IsNot Nothing Then
             cmdAceptar.Enabled = False
             cmdElimina.Enabled = False

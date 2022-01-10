@@ -179,7 +179,6 @@ Public Class frmSolicitudChequeraNormal
             Dim d As New Datasource
             Dim iChequera As DataTable
             Dim sProdCont As String
-            Dim ln_Orden As Byte
             Dim sLastPart As String
 
             Dim lnUltimoChq As Long
@@ -511,14 +510,19 @@ Public Class frmSolicitudChequeraNormal
             'Valida que la longitud del cheque sea mayor a cero
             If Ln_LongCheque <= 0 Then
                 MsgBox("El valor de la longitud del número de cheque es incorrecto, favor de verificar el parametro ""LONGFOLIOCHQ""", vbCritical, "Error")
-                Exit Function
+
+                'Exit Function
+                ObtenNuevoCheque = False
+                Return ObtenNuevoCheque
             End If
             Ln_ChequeInicial = Val(ValorParametro("FOLIOINICHQ")) - 1
 
             'Valida que la longitud del cheque sea mayor a cero
             If Ln_ChequeInicial < 0 Then
                 MsgBox("El valor inicial del número de cheque es incorrecto, favor de verificar el parametro ""FOLIOINICHQ""", vbCritical, "Error")
-                Exit Function
+                'Exit Function
+                ObtenNuevoCheque = False
+                Return ObtenNuevoCheque
             End If
 
 
@@ -547,14 +551,19 @@ Public Class frmSolicitudChequeraNormal
             'Si son diferentes reinicio el numero de cheque
             If Ln_UltLongChq <> Ln_LongCheque Then Ln_UltimoCHQ = Ln_ChequeInicial
             ObtenNuevoCheque = True
+            Return ObtenNuevoCheque
             Exit Function
         Catch ex As Exception
             ObtenNuevoCheque = False
             MsgBox("Error al obtener el nuevo numero de cheque" & vbCrLf & Err.Number & ":" & Err.Description, vbCritical, "Error")
 
             MsgBox("Ha ocurrido un error en ObtenDatosTicket: " & ex.Message, vbInformation, "SolicitudChequeraEspecial")
+            Return ObtenNuevoCheque
             Exit Function
         End Try
+
+        Return ObtenNuevoCheque
+
     End Function
 
     'Obtiene valor de la tabla Parametros

@@ -164,7 +164,7 @@ Public Class frmReimpRepMT198
         generaInstancia = False
 
         Dim intFile As Integer
-        Dim nomAgencia As String
+        Dim nomAgencia As String = ""
 
         If Agencia = 1 Then
             nomAgencia = "HO"
@@ -517,7 +517,6 @@ erropDefXTicket:
     End Function
 
     Private Sub cmdImprimir_Click(sender As Object, e As EventArgs) Handles cmdImprimir.Click
-        Dim strTipoReporte, sSelectionFormula As String
         Dim lvntObtenerOperaciones1(0) As Object
         Dim lvntObtenerOperaciones2(0) As VariantType
         Dim dblContador As Double
@@ -528,6 +527,7 @@ erropDefXTicket:
         Dim lsAmbiente As String = ""
         Dim lsReporte As String = ""
         Dim lsRutaFolder As String = ""
+        Dim sSelectionFormula As String
 
         'Screen.MousePointer = vbHourglass
         lblTotalOperaciones.Visible = False
@@ -639,7 +639,7 @@ erropDefXTicket:
     Private Sub cboAgencias_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboAgencias.SelectedIndexChanged
         ObtenerOperaciones()
     End Sub
-    Private Function ObtenerOperaciones()
+    Private Sub ObtenerOperaciones()
         Dim dtRespConsulta As DataTable
         'Dim drRegistro As DataRow
 
@@ -651,7 +651,6 @@ erropDefXTicket:
             'If Val(dbGetValue(0)) = 0 Then
             If dtRespConsulta.Rows(0).Item(0) = 0 Then
                 'dbEndQuery
-                Dim dblContador As Double
 
                 gs_Sql = "SELECT os.no_rep_swift as [No Reporte],op.operacion as Ticket,trs.desc_tipo_reporte_swift as Operación, op.fecha_captura as [Fecha Captura], op.monto_operacion as Monto, " &
                             "ltrim(rtrim(convert(char(4),A.prefijo_agencia))) + '-' + ltrim(rtrim(convert(char(7),pc.cuenta_cliente))) + '-' + ltrim(rtrim(convert(char(3),tce.sufijo_kapiti))) AS Cuenta " &
@@ -764,6 +763,6 @@ erropDefXTicket:
                 dtpFecha.Focus()
             End If
         End If
-    End Function
+    End Sub
 
 End Class
