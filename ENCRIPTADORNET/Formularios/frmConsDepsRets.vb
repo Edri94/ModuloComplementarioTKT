@@ -500,29 +500,33 @@
         Dim dsMoneda As New Datasource
         Dim dtMoneda As DataTable
         dtMoneda = New DataTable
-        gs_Sql = "Select "
-        gs_Sql = gs_Sql & "TM.descripcion_moneda, "
-        If ln_TipoOper = 0 Then                       'La operacion es un deposito
-            gs_Sql = gs_Sql & "DR.folio_linea_servicio as col1, "
-            gs_Sql = gs_Sql & "DR.destino as col2, "
-            gs_Sql = gs_Sql & "DR.otro_documento as col3 "
-            gs_Sql = gs_Sql & "From "
-            gs_Sql = gs_Sql & "GOS.dbo.T_DEPOSITO DR, "
-        Else                                          'La operacion es un retiro
-            gs_Sql = gs_Sql & "DR.numero_cheque as col1, "
-            gs_Sql = gs_Sql & "DR.causa as col2 "
-            gs_Sql = gs_Sql & "From "
-            gs_Sql = gs_Sql & "GOS.dbo.T_RETIRO_PME DR, "
+
+        gs_Sql = " 
+            Select 
+	            TM.descripcion_moneda,"
+        If ln_TipoOper = 0 Then
+            gs_Sql &= "
+                    DR.folio_linea_servicio as col1, 
+                    DR.destino as col2, 
+                    DR.otro_documento as col3
+                From 
+	                GOS.dbo.T_DEPOSITO DR
+	                INNER JOIN TICKET.dbo.TIPO_DOCUMENTO TD ON TD.tipo_documento = DR.tipo_documento
+	                LEFT JOIN TICKET.dbo.TIPO_MONEDA TM  ON TM.tipo_moneda = DR.tipo_moneda"
+        Else
+            gs_Sql &= "
+                    DR.numero_cheque as col1, 
+	                DR.causa as col2 
+                From 
+	                GOS.dbo.T_RETIRO_PME DR
+	                INNER JOIN TICKET.dbo.TIPO_DOCUMENTO TD ON TD.tipo_documento = DR.tipo_documento 
+ 	                LEFT JOIN TICKET.dbo.TIPO_MONEDA TM ON TM.tipo_moneda = DR.tipo_moneda "
         End If
-        gs_Sql = gs_Sql & "TICKET.dbo.TIPO_DOCUMENTO TD, "
-        gs_Sql = gs_Sql & "TICKET.dbo.TIPO_MONEDA TM "
-        gs_Sql = gs_Sql & "Where "
-        gs_Sql = gs_Sql & "TD.tipo_documento = DR.tipo_documento and "
-        gs_Sql = gs_Sql & "TM.tipo_moneda =* DR.tipo_moneda and "
-        gs_Sql = gs_Sql & "DR.operacion = " & Operacion
-        '    dbExecQuery gs_Sql                            'Busca mas datos particulares de la operacion
-        '    dbGetRecord
-        '    If dbGetValue(0) <> "" Then
+
+        gs_Sql &= "Where DR.operacion = " & Operacion
+
+
+
         dtMoneda = dsMoneda.RealizaConsulta(gs_Sql)
         If dtMoneda.Rows.Count > 0 Then
             row = dtMoneda.Rows(0)
