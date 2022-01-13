@@ -182,49 +182,48 @@
         ln_Rows = 1
         Cursor = System.Windows.Forms.Cursors.WaitCursor
         'ShowWaitCursor
-        gs_Sql = "Select "
-        gs_Sql = gs_Sql & "OP.operacion, "
-        gs_Sql = gs_Sql & "OP.monto_operacion, "
-        gs_Sql = gs_Sql & "convert(char(10),OP.fecha_captura,105), "
-        gs_Sql = gs_Sql & "convert(char(10),OP.fecha_operacion,105), "
-        gs_Sql = gs_Sql & "case RP.referencia when null then "
-        gs_Sql = gs_Sql & "case DP.referencia when null then 0 else DP.referencia end "
-        gs_Sql = gs_Sql & "else RP.referencia end, "
-        gs_Sql = gs_Sql & "SC.descripcion_status_concilia, "
-        gs_Sql = gs_Sql & "OD.descripcion_operacion_definida "
-        gs_Sql = gs_Sql & "From "
-        gs_Sql = gs_Sql & "TICKET.dbo.OPERACION_DEFINIDA OD, "
-        gs_Sql = gs_Sql & "GOS.dbo.OPERACION_TICKET OT, "
-        gs_Sql = gs_Sql & "GOS.dbo.STATUS_CONCILIA SC, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_OPERACION OP, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_DEPOSITO_PME DP, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_RETIRO_PME RP, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_TRASPASO TT, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_RETIRO_ORDEN_PAGO RO, "
-        gs_Sql = gs_Sql & "GOS.dbo.T_RETIRO_ORDEN_DIVISAS RD "
-        gs_Sql = gs_Sql & "Where "
-        gs_Sql = gs_Sql & "SC.status_concilia = OT.status_concilia and "
-        gs_Sql = gs_Sql & "OT.operacion = OP.operacion and "
-        gs_Sql = gs_Sql & "OD.operacion_definida = OP.operacion_definida and "
+        gs_Sql = "
+            SELECT 
+	            OP.operacion,
+                OP.monto_operacion, 
+                convert(char(10),OP.fecha_captura,105), 
+                convert(char(10),OP.fecha_operacion,105), 
+                case RP.referencia when null then 
+	            case DP.referencia when null then 0 else DP.referencia end 
+	            else RP.referencia end, 
+                SC.descripcion_status_concilia, 
+                OD.descripcion_operacion_definida 
+            FROM 
+	            TICKET.dbo.OPERACION_DEFINIDA OD
+	            INNER JOIN GOS.dbo.T_OPERACION OP ON OD.operacion_definida = OP.operacion_definida
+                INNER JOIN GOS.dbo.OPERACION_TICKET OT ON OT.operacion = OP.operacion
+                INNER JOIN GOS.dbo.STATUS_CONCILIA SC ON SC.status_concilia = OT.status_concilia
+                LEFT JOIN GOS.dbo.T_DEPOSITO_PME DP ON OP.operacion = DP.operacion
+                LEFT JOIN GOS.dbo.T_RETIRO_PME RP ON OP.operacion = RP.operacion
+                LEFT JOIN GOS.dbo.T_TRASPASO TT ON OP.operacion = TT.operacion
+                LEFT JOIN GOS.dbo.T_RETIRO_ORDEN_PAGO RO ON OP.operacion = RO.operacion 
+                LEFT JOIN GOS.dbo.T_RETIRO_ORDEN_DIVISAS RD ON OP.operacion = RD.operacion  
+            WHERE
+        "
+
         If chkTktFecha.Checked = True Then
             gs_Sql = gs_Sql & "OP.fecha_operacion >= '" & l.InvierteFecha(txtTktFecha0.Text) & " 00:00AM' and "
 
             gs_Sql = gs_Sql & "OP.fecha_operacion <= '" & l.InvierteFecha(txtTktFecha1.Text) & " 11:59PM' and "
         End If
+
         If chkTktTicket.Checked = True Then
             gs_Sql = gs_Sql & "OP.operacion >= " & txtTktTkt0.Text & " and "
             gs_Sql = gs_Sql & "OP.operacion <= " & txtTktTkt1.Text & " and "
         End If
+
         If chkTktStatus.Checked = True Then
             gs_Sql = gs_Sql & "OT.status_concilia = " & cmbTktStatus.SelectedValue.ToString & " and "
         End If
-        gs_Sql = gs_Sql & "OP.operacion *= RP.operacion and "
-        gs_Sql = gs_Sql & "OP.operacion *= DP.operacion and "
-        gs_Sql = gs_Sql & "OP.operacion *= TT.operacion and "
-        gs_Sql = gs_Sql & "OP.operacion *= RO.operacion and "
-        gs_Sql = gs_Sql & "OP.operacion *= RD.operacion and "
+
         gs_Sql = gs_Sql & "OP.producto_contratado = " & cmbCliente.SelectedValue.ToString
         gs_Sql = gs_Sql & " order by OP.operacion desc"
+
         'MsgBox("gs_sql tickets " & gs_Sql, MessageBoxButtons.OK)
         Me.grdTkt.Font = New Font("Microsoft Sans Serif", 9, FontStyle.Regular)
 
